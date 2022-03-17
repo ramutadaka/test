@@ -65,3 +65,20 @@ git diff <filename>
 
 git diff --staged <filename>
 	it will compare staged code with the latest comit code
+
+git commit <filename> -m "your message"
+	comit directly without staging this perticular file
+
+git comit -a -m "your message" 
+	it comit all files directly by skipping stage area
+
+git rm <filename>
+	it will remove your file from the project
+
+git rm - -cached <filename>
+	it will remove file from its staged area but it is still in the form of untrack file in our directory
+
+git status -s 
+	will give the present state of file
+	means if you change anything and didnt added to staged then it shows M with redmark at second positon
+	if you added to staged and changed again now u not added then it show 2 M's first represent staged and 2nd represent modified
