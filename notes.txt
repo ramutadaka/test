@@ -1,0 +1,55 @@
+//git intro
+
+	git is software tool for maintain version controll of our project
+	it keep tract of our files whenever changes made
+
+	git bash is CLI-command line interface for git repository
+
+======================================================
+
+
+git add <file name>   
+	add file to git
+
+git add -a
+	to add multiple(ALL) files to staging area
+	
+git restore <filename>
+	undo changes before committed
+
+git restore --staged<filename>
+	undo from staged state 
+	
+git commit -m <"u r msg">        
+	for saving file
+
+git push origin <your branch name>
+	for remote push code
+	
+git status
+	for checking the status
+	
+git init
+	
+git checkout <filename>
+	undo changes to file before comit 
+	
+git checkout .
+	undo changes on all files
+	
+git clean -fd
+	to clear untrack files
+
+git checkout -b <branchname>
+	to create branch in git
+	
+git push origin <branch name or file >
+	to push code to remote
+
+feature/TRUTH-no-name
+	format of branch in git
+	
+touch <filename1> <filename2>
+	to create files
+	
+	
