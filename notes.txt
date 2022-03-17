@@ -32,10 +32,10 @@ git status
 git init
 	
 git checkout <filename>
-	undo changes to file before comit 
+	undo changes in file to latest comit 
 	
 git checkout .
-	undo changes on all files
+	undo changes in all files to its latest comit
 	
 git clean -fd
 	to clear untrack files
@@ -52,4 +52,16 @@ feature/TRUTH-no-name
 touch <filename1> <filename2>
 	to create files
 	
-	
+git log
+	shows the history of log comits
+
+git log -p -1
+	show the logs of last comit
+	if it is -p -n then shows last n comits
+
+git diff <filename>
+	it will show you where the changes has been made and it compare it with staged 
+	code with current changes
+
+git diff --staged <filename>
+	it will compare staged code with the latest comit code
