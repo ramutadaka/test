@@ -116,4 +116,9 @@ git config user.name "<username>"
 
 git config user.name	
 	to see the username
+
+git pull origin <your branchname>
+	it pull data to your branch from remote origin
+
+
 	
