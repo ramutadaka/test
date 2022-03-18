@@ -82,3 +82,21 @@ git status -s
 	will give the present state of file
 	means if you change anything and didnt added to staged then it shows M with redmark at second positon
 	if you added to staged and changed again now u not added then it show 2 M's first represent staged and 2nd represent modified
+
+.gitignore
+	is the default file provided by the git the files which are mensioned in the .gitignore are not tracked by git
+	so if u dont want to tract the files then place its file names under this .gitignore
+	touch .gitignore
+	mension file name in this file which u want to ignore
+	logs.txt
+	logs.logs
+	test.txt 	etc.......
+	these files are not tracked by the git
+	
+	if u want to specify path then u can give also other wise the file name which  u mention in ignore file search in all directory 
+	including subdirectorys
+
+	/test/logs.txt
+		this will not tract logs.txt under test folder only not in all directory
+		
+	
