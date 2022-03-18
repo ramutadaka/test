@@ -98,5 +98,7 @@ git status -s
 
 	/test/logs.txt
 		this will not tract logs.txt under test folder only not in all directory
-		
+	
+git merge <branch name u want to merge>
+	this will merge the branch present branch with the branch name entered
 	
