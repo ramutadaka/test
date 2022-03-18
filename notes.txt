@@ -40,8 +40,14 @@ git checkout .
 git clean -fd
 	to clear untrack files
 
+git branch
+	to view the list of branches
+
+git branch <branch name>
+	to create a branch
+
 git checkout -b <branchname>
-	to create branch in git
+	to create branch in git and switch to branch as well
 	
 git push origin <branch name or file >
 	to push code to remote
@@ -101,4 +107,13 @@ git status -s
 	
 git merge <branch name u want to merge>
 	this will merge the branch present branch with the branch name entered
+	
+git config --global user.name "<user name>"
+	setting username for all repositorys
+
+git config user.name "<username>"
+	setting username for single repository
+
+git config user.name	
+	to see the username
 	
