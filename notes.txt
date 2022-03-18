@@ -111,8 +111,6 @@ git merge <branch name u want to merge>
 git config --global user.name "<user name>"
 	setting username for all repositorys
 
-sdfsdfsdf
-
 git config user.name "<username>"
 	setting username for single repository
 
